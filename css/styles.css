@@ -10,3 +10,7 @@
 .menu.link{
     color: var(--main-title-color)
 }
+
+.hero-title {
+    font-family: Roboto;
+}
