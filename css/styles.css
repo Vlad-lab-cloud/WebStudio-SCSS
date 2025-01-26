@@ -10,7 +10,10 @@
 .menu.link{
     color: var(--main-title-color)
 }
-
-.hero-title {
+.body{
     font-family: Roboto;
 }
+.logo{
+    font-family: Raleway;
+}
+
