@@ -12,8 +12,36 @@
 }
 .body{
     font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700px;
 }
 .logo{
     font-family: Raleway;
+    font-size: 26px;
+    font-weight: 900px;
 }
-
+.hero-title{
+    font-size: 44px;
+    font-weight: 900px;
+}
+.button {
+    font-size: 16px;
+}
+.action-title {
+    font-size: 36px;
+}
+.team-title {
+    font-size: 36px;
+}
+.team-list-title {
+    font-size: 16px;
+}
+.team-text {
+    font-size: 16px;
+}
+.projects-list-title {
+    font-size: 18px;
+}
+.projects-list-text {
+font-size: 16px;
+}
