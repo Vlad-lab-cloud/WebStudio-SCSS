@@ -52,6 +52,7 @@ font-size: 16px;
     font-weight: 400px;
 }
 .container {
+    display: flex;
     width: 1170px;
     height: 2346px;
     margin-left: auto;
