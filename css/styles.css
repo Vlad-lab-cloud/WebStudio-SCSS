@@ -53,18 +53,13 @@ font-size: 16px;
 }
 .container {
     width: 1170px;
-    height: 2346px;
-   margin: auto;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    display: flex;
-   }
-.container1 {
-    width: 1170px;
-    height: 1880px;
-  margin: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
+      }
+   img {
+    display: block;
+    max-width: 100%;
+    height: auto;
    }
 
