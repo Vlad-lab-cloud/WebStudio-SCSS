@@ -58,8 +58,13 @@ font-size: 16px;
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
+    justify-content: center;
     flex-basis: calc((100% - 2 * 30px) / 3); 
       }
+   .menu-list {
+    display: flex;
+    column-gap: 50px;
+   }
    img {
     display: block;
     max-width: 100%;
