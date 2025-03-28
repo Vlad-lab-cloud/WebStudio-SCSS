@@ -167,6 +167,9 @@ color: #757575;
 }
 .footer {
     background-color:#2F303A ;
-
-   
+    width: 1600px;
+    height: 252px;
+}
+.hero1 {
+    width: 1170px;
 }
