@@ -81,6 +81,8 @@ text-decoration: none;
 .hero {
     width: 1600px;
     height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     margin: 0 auto;
     background-image:url(../images/teamwork.png) ;
     display: flex;
@@ -111,6 +113,8 @@ text-align: center;
 color: #fff;
 }
 .action {
+    padding-top: 94px;
+    padding-bottom: 94px;
     margin: 0 auto;
     width: 1170px;
 }
@@ -129,13 +133,15 @@ color: #212121;
 padding-bottom: 50px;
 }
 .specialty {
+    padding-top: 94px;
+    padding-bottom: 94px;
     width: 1170px;
     height: 248px;
     margin: 0 auto;
     margin-bottom: 94px;
 }
 .specialty-list {
-    padding-top: 94px;
+    padding-bottom: 94px;
     display: flex;
     column-gap: 30px;
 }
@@ -168,13 +174,17 @@ text-align: center;
 color: #212121;
 }
 .team {
-    width: 1170px;
+    background-color: #F5F4FA;
+    width: 1600px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     height: 648px;
     padding-top: 94px;
     padding-bottom: 94px;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .team-list {
     display: flex;
