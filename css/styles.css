@@ -151,8 +151,37 @@ padding-bottom: 50px;
     display: flex;
     column-gap: 30px;
 }
-.specialty-image {
-    padding-bottom: 30px;
+.specialty-item1:nth-child(1):before{
+    content: '';
+    display: block;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-image:url(../images/antenna.png) ;
+}
+.specialty-item2:nth-child(2):before{
+    content: '';
+    display: block;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-image:url(../images/clock.png) ;
+}
+.specialty-item3:nth-child(3):before{
+    content: '';
+    display: block;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-image:url(../images/diagram.png) ;
+}
+.specialty-item4:nth-child(4):before{
+    content: '';
+    display: block;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-image:url(../images/astronaunt.png) ;
 }
 .specialty-item-text {
     font-family: var(--font-family);
