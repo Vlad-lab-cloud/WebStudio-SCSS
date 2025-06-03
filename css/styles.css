@@ -58,6 +58,18 @@ letter-spacing: 0.02em;
 color: #212121;
 text-decoration: none;
 }
+.svg-phone{
+    fill: #757575;
+    transition-property: fill;
+}
+.svg-envelope {
+    fill: #757575;
+    transition-property: fill;
+}
+.contacts-item {
+    width: 161px;
+    height: 16px;
+}
 .contacts-link {
     font-family: var(--font-family);
 font-weight: 500;
@@ -65,6 +77,12 @@ font-size: 14px;
 letter-spacing: 0.02em;
 color: #757575;
 text-decoration: none;
+}
+.contacts-link:hover .svg-phone {
+    fill: #2196f3;
+}
+.contacts-link:hover .svg-envelope {
+    fill: #2196f3;
 }
 .menu-link:hover {
     color: #2196f3;
@@ -281,6 +299,29 @@ color: #212121;
     display: flex;
     column-gap: 30px;
 }
+.team-icons {
+        padding: 12px;
+        fill: #AFB1B8;
+        width: 44px;
+        height: 44px;
+}
+.team-icons:hover{
+    fill: #fff;
+ }
+ .team-icon-list {
+    width: 206px;
+    height: 44px;
+ }
+ .team-social-icon {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+ }
+ .team-social-icon:hover {
+color: #2196f3;
+ }
 .team-item {
     width: 270px;
 height: 368px;
