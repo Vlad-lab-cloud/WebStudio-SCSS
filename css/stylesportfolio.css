@@ -234,6 +234,7 @@ color: #757575;
     flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 94px;
+    flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .projects-list-item:hover {
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
@@ -246,7 +247,6 @@ color: #757575;
     height: 252px;
     padding-top: 60px;
     background-color: #2F303A;
-    padding-left: 215px;
 }
 .footer-postion {
     display: flex;
