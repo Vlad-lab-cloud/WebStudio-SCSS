@@ -405,16 +405,16 @@ color: #757575;
     }
 /* footer */
 .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
     margin: 0 auto;
     width: 1600px;
     height: 252px;
     padding-top: 60px;
     background-color: #2F303A;
     padding-left: 215px;
+}
+.footer-postion {
+    display: flex;
+    align-items: center;
 }
 .studio-footer {
     color: #fff;
@@ -449,7 +449,7 @@ padding-bottom: 20px;
     display: flex;
 }
 .footer-socials {
-    margin-left: 516px;
+    margin-left: 70px;
     width: 206px;
     height: 80px;
 }

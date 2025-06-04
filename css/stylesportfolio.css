@@ -32,6 +32,22 @@ margin-left: 215px;
 .studio {
     color: #000;
 }
+.svg-phone{
+    fill: #757575;
+    transition-property: fill;
+    margin-right: 2px;
+}
+.svg-envelope {
+    fill: #757575;
+    transition-property: fill;
+    margin-right: 2px;
+}
+.contacts-link:hover .svg-phone {
+    fill: #2196f3;
+}
+.contacts-link:hover .svg-envelope {
+    fill: #2196f3;
+}
 .header-portfolio {
     width: 1600px;
     height: 80px;
@@ -213,9 +229,12 @@ color: #757575;
     width: 1600px;
     height: 252px;
     padding-top: 60px;
-    padding-bottom: 60px;
     background-color: #2F303A;
     padding-left: 215px;
+}
+.footer-postion {
+    display: flex;
+    align-items: center;
 }
 .studio-footer {
     color: #fff;
@@ -227,6 +246,7 @@ font-size: 14px;
 line-height: 171%;
 letter-spacing: 0.03em;
 color: #fff;
+width: 231px;
 }
 .logo-footer {
     text-decoration: none;
@@ -241,5 +261,24 @@ padding-bottom: 20px;
     display: flex;
     padding-top: 20px;
     flex-direction: column;
-    row-gap: 9px;
+    row-gap: 12px;
+    width: 231px;
+    height: 81px;
+}
+.footer-socials-list {
+    display: flex;
+}
+.footer-socials {
+    margin-left: 70px;
+    width: 206px;
+    height: 80px;
+}
+.footer-socials-title {
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
 }
