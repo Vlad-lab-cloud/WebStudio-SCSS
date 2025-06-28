@@ -639,20 +639,20 @@ padding-bottom: 20px;
     margin-left: 10px;
     margin-bottom: 30px;
     background-color: #3B3D47;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  }
  .footer-socials-icons:hover {
 background-color: #2196f3;
  }
  .footer-icons {
-    fill: #AFB1B8;
+    fill: #fff;
     width: 20px;
     height: 20px;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-icons:hover{
-fill: #fff;
 }
 .footer-socials-title {
     margin-bottom: 20px;
