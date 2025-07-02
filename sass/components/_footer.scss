@@ -1,0 +1,125 @@
+.footer {
+    margin: 0 auto;
+    width: 1600px;
+    height: 252px;
+    padding-top: 60px;
+    background-color: #2F303A;
+}
+.footer-postion {
+    display: flex;
+    align-items: center;
+}
+.studio-footer {
+    color: #fff;
+}
+.address-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: #fff;
+width: 231px;
+}
+.logo-footer {
+    text-decoration: none;
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+color: #2196f3;
+padding-bottom: 20px;
+}
+.contacts-footer {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 231px;
+    height: 81px;
+}
+.footer-socials-list {
+    display: flex;
+}
+.footer-socials {
+    margin-left: 70px;
+    width: 206px;
+    height: 80px;
+}
+.footer-socials-icons {
+    padding: 12px;
+    border-radius: 50%;
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-color: #3B3D47;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ .footer-socials-icons:hover {
+background-color: #2196f3;
+ }
+ .footer-icons {
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-socials-title {
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.subscription {
+    width: 570px;
+    height: 86px;
+    margin-left: 93px;
+}
+.subscription-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.subscription-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: rgba(33, 150, 243, 0);
+    padding-left: 16px;
+}
+.subscription-button {
+    width: 200px;
+    height: 50px;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.06em;
+text-align: center;
+color: #fff;
+background-color: #2196F3;
+}
+.subscription-position {
+position: relative;
+}
+.subscription-icon {
+    position: absolute;
+    top: 11px;
+    right: 27px;
+    fill: #fff;
+}
