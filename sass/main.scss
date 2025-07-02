@@ -1,4 +1,5 @@
 @import "./base/reset";
+@import "./abstracts/variables";
 @import "./components/container";
 @import "./components/header";
 @import "./components/hero";
@@ -8,4 +9,5 @@
 @import "./components/team";
 @import "./components/clients";
 @import "./components/footer";
-@import "./abstracts/variables";
+@import "./components/heroportfolio";
+@import "./components/projectsportfolio"
