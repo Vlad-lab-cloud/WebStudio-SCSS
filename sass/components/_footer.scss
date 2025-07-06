@@ -13,7 +13,7 @@
     color: #fff;
 }
 .address-text {
-    font-family: var(--font-family);
+    font-family: $font-family;
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
@@ -23,7 +23,7 @@ width: 231px;
 }
 .logo-footer {
     text-decoration: none;
-    font-family: var(--second-family);
+    font-family: $font-family;
 font-weight: 700;
 font-size: 26px;
 letter-spacing: 0.03em;
@@ -72,7 +72,7 @@ background-color: #2196f3;
 }
 .footer-socials-title {
     margin-bottom: 20px;
-    font-family: var(--font-family);
+    font-family: $font-family;
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -85,7 +85,7 @@ background-color: #2196f3;
     margin-left: 93px;
 }
 .subscription-title {
-    font-family: var(--font-family);
+    font-family: $font-family;
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -105,7 +105,7 @@ background-color: #2196f3;
 .subscription-button {
     width: 200px;
     height: 50px;
-    font-family: var(--font-family);
+    font-family: $font-family;
 font-weight: 700;
 font-size: 16px;
 line-height: 187%;

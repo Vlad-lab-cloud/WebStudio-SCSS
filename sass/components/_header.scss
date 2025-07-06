@@ -6,13 +6,14 @@
     align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 .header-position {
     display: flex;
     align-items: center;
 }
 .menu-link {
-    font-family: var(--font-family);
+    font-family: $font-family;
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
@@ -58,7 +59,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     height: 16px;
 }
 .contacts-link {
-    font-family: var(--font-family);
+    font-family: $font-family;
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
@@ -97,7 +98,7 @@ text-decoration: none;
     column-gap: 50px;
 }.logo {
     text-decoration: none;
-    font-family: var(--second-family);
+    font-family: $font-family;
 font-weight: 700;
 font-size: 26px;
 letter-spacing: 0.03em;
@@ -107,7 +108,7 @@ color: #2196f3;
     color: #000;
 }
 .menu.link{
-    font-family: var(--font-family);
+    font-family:$font-family;
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;

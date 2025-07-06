@@ -44,7 +44,7 @@
     background-image:url(../images/astronaunt.png) ;
 }
 .specialty-item-text {
-    font-family: var(--font-family);
+    font-family: $font-family;
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
@@ -52,7 +52,7 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 .specialty-item-title {
-    font-family: var(--font-family);
+    font-family: $font-family;
 font-weight: 700;
 font-size: 14px;
 letter-spacing: 0.03em;
