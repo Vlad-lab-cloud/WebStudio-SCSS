@@ -38,6 +38,15 @@ padding-bottom: 20px;
     width: 231px;
     height: 81px;
 }
+.contacts-link {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
 .footer-socials-list {
     display: flex;
 }
