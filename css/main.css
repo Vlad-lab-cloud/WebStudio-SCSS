@@ -176,7 +176,7 @@ table {
   text-align: center;
   color: #fff;
 }
-.hero .button1 {
+.hero .button {
   width: 216px;
   height: 50px;
   margin-left: 470px;
@@ -188,6 +188,35 @@ table {
   letter-spacing: 0.06em;
   text-align: center;
   color: #fff;
+}
+.hero .button:hover {
+  animation: shrinking-button 3s linear;
+}
+@keyframes shrinking-button {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.5);
+  }
+  20% {
+    transform: scale(0.6);
+  }
+  30% {
+    transform: scale(0.7);
+  }
+  40% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  60% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .backdrop {
