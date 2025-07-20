@@ -4,8 +4,8 @@
     margin-bottom: 94px;
     height: 1360px;
     margin: 0 auto;
-}
-.hero-list {
+
+    .hero-list {
     display: flex;
     column-gap: 8px;
    margin-left: 0;
@@ -15,8 +15,8 @@
    margin: 0 auto;
    margin-bottom: 34px;
    margin-top: 94px;
-}
-.hero-button1 {
+
+   .hero-button--1 {
     width: 73px;
     height: 38px;
     background-color: #F5F4FA;
@@ -29,7 +29,7 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
 }
-.hero-button2 {
+.hero-button--2 {
     width: 125px;
     height: 38px;
     background-color: #F5F4FA;
@@ -42,7 +42,7 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
 }
-.hero-button3 {
+.hero-button--3 {
     width: 112px;
     height: 38px;
     background-color: #F5F4FA;
@@ -55,7 +55,7 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
 }
-.hero-button4 {
+.hero-button--4 {
     width: 103px;
     height: 38px;
     background-color: #F5F4FA;
@@ -68,7 +68,7 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
 }
-.hero-button5 {
+.hero-button--5 {
     width: 130px;
     height: 38px;
     background-color: #F5F4FA;
@@ -81,18 +81,8 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
 }
-.hero-button1:hover {
+.hero-button:hover {
     background-color: #2196F3;
 }
-.hero-button2:hover {
-    background-color: #2196F3;
 }
-.hero-button3:hover {
-    background-color: #2196F3;
-}
-.hero-button4:hover {
-    background-color: #2196F3;
-} 
-.hero-button5:hover {
-    background-color: #2196F3;
 }

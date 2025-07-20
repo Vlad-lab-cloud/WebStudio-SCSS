@@ -10,8 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.team-title {
+
+    .team-title {
     font-family: $font-family;
 font-weight: 700;
 font-size: 36px;
@@ -20,11 +20,62 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
 }
-.team-list {
+
+.hero-team-list {
     display: flex;
     column-gap: 30px;
+
+    .team-item--description {
+    width: 270px;
+height: 428px;
+box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+background: #fff;
 }
-.team-icons {
+.team-image {
+    width: 270px;
+    height: 260px;
+}
+.team-text {
+    font-family: $font-family;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #757575;
+}
+
+    .hero-team-title {
+    font-family: $font-family;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+padding-bottom: 10px;
+margin-top: 30px;
+}
+
+    .team-list {
+    width: 206px;
+    height: 44px;
+    margin-left: 10px;
+    margin-top: 16px;
+    column-gap: 12px;
+    display: flex;
+
+    .team-item {
+    padding: 12px;
+    border-radius: 50%;
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+ }
+ .team-item:hover {
+background-color: #2196f3;
+ }
+ .team-icons {
         fill: #AFB1B8;
         width: 20px;
         height: 20px;
@@ -35,51 +86,6 @@ color: #212121;
 .team-icons:hover{
     fill: #fff;
  }
- .team-icon-list {
-    width: 206px;
-    height: 44px;
-    margin-left: 10px;
-    margin-top: 16px;
-    column-gap: 12px;
-    display: flex;
  }
- .team-social-icon {
-    padding: 12px;
-    border-radius: 50%;
-    display: block;
-    width: 44px;
-    height: 44px;
-    margin-left: 10px;
-    margin-bottom: 30px;
- }
- .team-social-icon:hover {
-background-color: #2196f3;
- }
-.team-item {
-    width: 270px;
-height: 428px;
-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-background: #fff;
 }
-.team-image {
-    width: 270px;
-    height: 260px;
-}
-.team-list-title {
-    font-family: $font-family;
-font-weight: 500;
-font-size: 16px;
-letter-spacing: 0.03em;
-text-align: center;
-color: #212121;
-padding-bottom: 10px;
-margin-top: 30px;
-}
-.team-text {
-    font-family: $font-family;
-font-weight: 400;
-font-size: 16px;
-letter-spacing: 0.03em;
-text-align: center;
-color: #757575;
 }

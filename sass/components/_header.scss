@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
 }
-.header-logo {
+.logo-header {
     text-decoration: none;
     font-family: $font-family;
 font-weight: 700;
@@ -69,9 +69,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     width: 161px;
     height: 16px;
     }
-
     .contacts-link {
-    font-family: $font-style;
+    font-family: $font-family;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
